@@ -1,0 +1,45 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2%;
+  padding: 10px;
+}
+
+.square {
+  aspect-ratio: 3/4;
+  display: flex;
+  align-items: center;
+  padding: 5%;
+  background-color: #1E1E1E;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+text-shadow: #ffffff 1px 0 3px;font-size: 20px
+}
+
+.square img {
+  width: 250px;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+   margin-left: auto;
+  margin-right: auto;
+}
+
+.square .img1 {
+ display: block;
+}
+
+.square:hover .img1 {
+ display: none;
+}
+.square .hover {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.square:hover .hover {
+  display: block;
+}
+section{margin-bottom: 100px}

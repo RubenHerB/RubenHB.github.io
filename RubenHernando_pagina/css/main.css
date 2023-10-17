@@ -1,0 +1,93 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+    background-color: #262626;
+    color: white;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+    display: block;
+}
+.cabecera { height:50px ;width: 100%; background-color: #262626;position: fixed; font-size: 30px;vertical-align: middle;top: 0
+}
+.logo{height: 50px;  
+  width: auto;text-align: left;  float: left;
+}
+.titulo{text-align: center;vertical-align: middle; color: #E6002B;height: 30px;
+    margin-left: auto;margin-top: 10px;
+}
+.barramenu {
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  width: 100vw;
+  top: 50px;
+}
+.barramenu a {
+  float: left;
+  color: black;
+  text-align: center;
+  width: 25%;
+  padding: 14px 0px;
+  text-align: middle;
+  text-decoration: none;
+  font-size: 20px;
+}
+.barramenu a:hover {
+  background-color: #ffe0e7;
+}
+.barramenu a.principal {
+  background-color: #EC001A;
+  color: white;
+}
+.cuerpo{margin-top: 100px;height: 100%}
+.imagen{margin-left: auto; height: 300px;width: auto;padding: 10px 10px}
+.piedepagina{height:150px ;
+  width: 100%; 
+  background-color: #262626; 
+  font-size: 30px;
+  vertical-align: middle;top: 0;
+  text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+.piedepagina a{font-size: 20px;color: #FFBCB4; 
+  text-decoration: none;
+}
+hr {
+     border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background:#262626;
+  border-left: 1px solid #606060;
+}
+::-webkit-scrollbar-thumb {
+  background: #404040;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+section{
+  width: 100%;
+}
+article{width: 80%;
+  margin-right: auto;margin-left: auto;
+  border: 2px solid #3a3a3a;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+#intro{margin-top: 150px}
+video{display: block;
+ margin-right: auto;margin-left: auto;
+ margin-top: 20PX;
+width: 100%}
+h1{font-size:2em; margin: 0;}
+a{color: white;}
+article img{width: 100%;height: auto;}

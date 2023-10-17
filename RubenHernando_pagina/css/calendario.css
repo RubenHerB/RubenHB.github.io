@@ -1,0 +1,4 @@
+table{border-collapse: collapse;border: 5px solid white;padding: 10px;margin-top:120px;margin-bottom:20px;margin-right:auto; margin-left: auto;}
+tr{border-collapse: collapse;border: 2px solid #595959;}
+td,th{border-collapse: collapse;border: 1px solid #adadad;text-align: center;padding:20px}
+iframe { border: none; }

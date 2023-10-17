@@ -1,0 +1,5 @@
+table,td,th,tr{border-collapse:collapse}
+table{border:5px solid #fff;padding:10px;margin:120px auto 20px}
+tr{border:2px solid #595959}
+td,th{border:1px solid #adadad;text-align:center;padding:20px}
+iframe{border:none}

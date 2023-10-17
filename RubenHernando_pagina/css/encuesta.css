@@ -1,0 +1,21 @@
+input{padding: 10px;}
+form{width: 80%;margin-right: auto;margin-left: auto;margin-bottom: 30px}
+
+section a{
+	display: block;
+	background-color: white;
+	padding: 20px;
+	width: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	border-radius: 20px;
+border: 2px solid black;
+}
+
+section a:hover{box-shadow: 0 0 10px white;
+border: 3x solid black;}
+
+section{margin-top: 50px;margin-bottom: 50px}
